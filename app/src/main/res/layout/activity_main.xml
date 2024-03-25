@@ -1,0 +1,19 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table"
+    android:divider="@color/black"
+    android:showDividers="middle"
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:paddingTop="180dp">
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/table_row_new" xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:paddingLeft="30dp" android:text="Имя" />
+        <TextView android:paddingLeft="30dp" android:text="Возраст" />
+        <TextView android:text="Рост" android:paddingLeft="30dp" />
+        <TextView android:text="Вес" android:paddingLeft="30dp" />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/table_row_new" xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:paddingLeft="30dp" />
+        <TextView android:paddingLeft="30dp"/>
+        <TextView android:paddingLeft="30dp" />
+        <TextView android:paddingLeft="30dp" />
+    </TableRow>
+</TableLayout>
